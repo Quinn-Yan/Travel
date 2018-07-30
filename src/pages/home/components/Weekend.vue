@@ -7,8 +7,8 @@
                 <img class="item-img" :src="item.imgUrl" alt="">
             </div>
             <div class="item-info">
-                <p class="item-title">大连圣亚海洋世界</p>
-                <p class="item-desc">浪漫大连首站，浪漫的海洋主题乐园</p>
+                <p class="item-title">{{item.title}}</p>
+                <p class="item-desc">{{item.desc}}</p>
             </div>
       </li>
     </ul>
